@@ -1,0 +1,72 @@
+body {}
+#wrap {
+    background-image:url(../imegas/home.jpg);
+    width: 402px; height: 874px;
+    margin: 0 auto;
+    background-size:100% auto ;
+    position:relative;
+}
+#wrap main {}
+#wrap main .flower {
+    text-align: center;
+    padding-top: 150px;
+}
+#wrap main .flower .birth {
+    margin-bottom: 8px;
+    font-size: 0.75em;
+}
+#wrap main .flower h1 {
+    font-size:1.5em;
+    font-weight: 600;
+}
+#wrap main .month_myflower {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+    gap:6px;
+    position:absolute;
+    bottom: 400px; left: 50px;
+}
+#wrap main .month_myflower #month {
+    width: 300px; height: 42px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgba(0,0,0,0.6);
+    font-size: 0.875em;
+    display:block;
+    text-align: center;
+}
+#wrap main .month_myflower #myflower {
+    width: 300px; height: 42px;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.875em;
+}
+/* -----------------------------버튼 클릭 시 뜨는 탄생화 */
+#wrap main .open {
+    width:328px; height:239px;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    display:flex;
+    flex-flow:column nowrap;
+    gap:35px;
+    border-radius: 20px;
+    position:absolute;
+    bottom: 300px; left: 40px;
+}
+#wrap main .open .top {
+    font-size: 0.875em;
+    margin-top: 35px;
+}
+#wrap main .open .middle {
+    font-size: 0.875em;
+}
+#wrap main .open .bottom {
+    font-size: 1.125em;
+}
+#wrap main .open em {
+    font-weight: 600;
+}
