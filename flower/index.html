@@ -7,8 +7,8 @@
     <meta name="keywords" content="꽃, 꽃집, 꽃배달, 꽃다발, 플로리스트">
     <title>탄생화 만들기</title>
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/index02.css">
-    <script src="../scripts/index02.js" defer></script>
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="../scripts/index.js" defer></script>
 </head>
 <body>
     <div id="wrap">
@@ -19,13 +19,14 @@
             </div>
             <div class="month_myflower">
                 <input type="text" name="month" id="month" placeholder="태어난 달을 숫자로 입력해주세요">
-                <button type="button" name="myflower" id="myflower">나의 꽃과 꽃말 만나기</button>
+                <button type="button" name="myflower" id="myflower" onclick="openFlower()">나의 꽃과 꽃말 만나기</button>
             </div>
             <div class="open">
                 <p class="top">birthday Month 12</p>
                 <p class="meddle">꽃말 : 자기애, 자존심, 외로움</p>
                 <p class="bottom">당신의 탄생화는 <em>'수선화'</em>입니다.</p>
             </div>
+            <div class="flower_bg" onclick="closeFlower()"></div>
         </main>
     </div>
 </body>
