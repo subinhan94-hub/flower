@@ -50,7 +50,7 @@ body {}
 }
 /* -----------------------------버튼 클릭 시 뜨는 탄생화 */
 #wrap main .open {
-    width:328px; height:239px;
+    width:328px; min-height:239px;
     padding: 10px 10px;
     background-color: rgba(255,255,255,0.8);
     text-align: center;
