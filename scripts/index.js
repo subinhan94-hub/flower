@@ -1,3 +1,11 @@
+//index.js
+// 위 입력칸(클릭 시 12 로 값 변경)
+const month = document.querySelector(#month);
+month.value = 12 ;
+function month() {
+    
+}
+
 let open=document.querySelector('.open');
 const flower_bg=document.querySelector('.flower_bg');
 console.log(open);
